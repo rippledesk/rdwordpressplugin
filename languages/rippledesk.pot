@@ -1,0 +1,3500 @@
+# Copyright (C) 2025 Rippledesk
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Rippledesk: Phone Calls & SMS 0.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/plugin\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-09-08T14:02:34+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+
+#. Plugin Name of the plugin
+#: rippledesk.php
+msgid "Rippledesk: Phone Calls & SMS"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: rippledesk.php
+msgid "https://rippledesk.com"
+msgstr ""
+
+#. Description of the plugin
+#: rippledesk.php
+msgid "Business phone and messaging system for teams. Rippledesk allows you to make and receive calls from your WordPress site."
+msgstr ""
+
+#. Author of the plugin
+#: rippledesk.php
+msgid "Rippledesk"
+msgstr ""
+
+#: rippledesk.php:154
+msgid "Make a call with Rippledesk"
+msgstr ""
+
+#: rippledesk.php:392
+#: wp-translations-dist/src/pages/Settings/index.js:27
+msgid "Settings"
+msgstr ""
+
+#: rippledesk.php:408
+#: wp-translations-dist/src/context/BuyPhone/views/ConfirmPurchase.js:62
+#: wp-translations-dist/src/context/BuyPhone/views/ConfirmPurchaseWithForceUpgrade.js:82
+#: wp-translations-dist/src/context/BuyPhone/views/ConfirmPurchaseWithPaymentMethod.js:98
+#: wp-translations-dist/src/pages/components/OnBoardingModal/GoalAction/BuyPhoneNumber/index.js:59
+msgid "Please wait..."
+msgstr ""
+
+#: wp-translations-dist/src/components/CallAudioPlayer/index.js:39
+msgid "Conversation queued to be transcribed. Check back in a few minutes"
+msgstr ""
+
+#: wp-translations-dist/src/components/CallAudioPlayer/index.js:81
+msgid "audio player"
+msgstr ""
+
+#: wp-translations-dist/src/components/CallAudioPlayer/index.js:90
+msgid "unmute"
+msgstr ""
+
+#: wp-translations-dist/src/components/CallAudioPlayer/index.js:90
+msgid "mute"
+msgstr ""
+
+#: wp-translations-dist/src/components/CallAudioPlayer/NoTranscription.js:7
+msgid "Your call is being transcribed. This may take a few moments."
+msgstr ""
+
+#: wp-translations-dist/src/components/CallAudioPlayer/NoTranscription.js:7
+msgid "It looks like this call hasn't been transcribed yet"
+msgstr ""
+
+#: wp-translations-dist/src/components/CallAudioPlayer/NoTranscription.js:7
+msgid "Transcribe Call"
+msgstr ""
+
+#: wp-translations-dist/src/components/CallAudioPlayer/Transcript/index.js:43
+msgid "Positive"
+msgstr ""
+
+#: wp-translations-dist/src/components/CallAudioPlayer/Transcript/index.js:45
+msgid "Negative"
+msgstr ""
+
+#: wp-translations-dist/src/components/CallAudioPlayer/Transcript/index.js:47
+msgid "Neutral"
+msgstr ""
+
+#: wp-translations-dist/src/components/CallFlows/index.js:104
+msgid "Stop"
+msgstr ""
+
+#: wp-translations-dist/src/components/CallFlows/index.js:104
+msgid "Play sample"
+msgstr ""
+
+#: wp-translations-dist/src/components/CallFlows/index.js:111
+msgid "Apply"
+msgstr ""
+
+#: wp-translations-dist/src/components/CallStatus/index.js:13
+#: wp-translations-dist/src/pages/History/Calls/components/CallStatus/index.js:12
+msgid "This call was rejected because the workspace had no credit balance"
+msgstr ""
+
+#: wp-translations-dist/src/components/CallStatus/index.js:14
+msgid "This call was rejected because the destination is not allowed"
+msgstr ""
+
+#: wp-translations-dist/src/components/CallStatus/index.js:19
+#: wp-translations-dist/src/pages/History/Calls/components/CallStatus/index.js:18
+msgid "Abandoned"
+msgstr ""
+
+#: wp-translations-dist/src/components/CallStatus/index.js:20
+#: wp-translations-dist/src/pages/History/Calls/components/CallStatus/index.js:19
+msgid "Completed"
+msgstr ""
+
+#: wp-translations-dist/src/components/CallStatus/index.js:21
+#: wp-translations-dist/src/pages/History/Calls/components/CallStatus/index.js:20
+msgid "Failed"
+msgstr ""
+
+#: wp-translations-dist/src/components/CallStatus/index.js:22
+#: wp-translations-dist/src/pages/History/Calls/components/CallStatus/index.js:21
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/RateChecker.js:126
+msgid "Incoming"
+msgstr ""
+
+#: wp-translations-dist/src/components/CallStatus/index.js:23
+#: wp-translations-dist/src/pages/History/Calls/components/CallStatus/index.js:22
+msgid "Missed"
+msgstr ""
+
+#: wp-translations-dist/src/components/CallStatus/index.js:24
+#: wp-translations-dist/src/pages/History/Calls/components/CallStatus/index.js:23
+msgid "On Going"
+msgstr ""
+
+#: wp-translations-dist/src/components/CallStatus/index.js:25
+#: wp-translations-dist/src/pages/History/Calls/components/CallStatus/index.js:24
+msgid "Out Going"
+msgstr ""
+
+#: wp-translations-dist/src/components/CallStatus/index.js:26
+#: wp-translations-dist/src/pages/History/Calls/components/CallStatus/index.js:25
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/index.js:178
+msgid "Pending"
+msgstr ""
+
+#: wp-translations-dist/src/components/CallStatus/index.js:27
+#: wp-translations-dist/src/pages/History/Calls/components/CallStatus/index.js:26
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/index.js:73
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/index.js:93
+msgid "Rejected"
+msgstr ""
+
+#: wp-translations-dist/src/components/CallStatus/index.js:28
+#: wp-translations-dist/src/pages/History/Calls/components/CallStatus/index.js:27
+msgid "Voicemail"
+msgstr ""
+
+#: wp-translations-dist/src/components/ContactDetail/About/ContactCompany.js:14
+msgid "Add company"
+msgstr ""
+
+#: wp-translations-dist/src/components/ContactDetail/About/ContactInfo.js:30
+msgid "Company"
+msgstr ""
+
+#: wp-translations-dist/src/components/ContactDetail/About/ContactInfo.js:34
+msgid "Phone"
+msgstr ""
+
+#: wp-translations-dist/src/components/ContactDetail/About/ContactInfo.js:36
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PersonalDetails/index.js:101
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/PointOfContact/index.js:83
+#: wp-translations-dist/src/pages/Settings/EmailAlert/Schedule.js:41
+msgid "Email"
+msgstr ""
+
+#: wp-translations-dist/src/components/ContactDetail/About/ContactInfo.js:38
+msgid "Website"
+msgstr ""
+
+#: wp-translations-dist/src/components/ContactDetail/About/ContactInfo.js:52
+#: wp-translations-dist/src/pages/History/Message/components/MessageDetail/index.js:101
+#: wp-translations-dist/src/pages/History/Message/table.js:190
+msgid "Tags"
+msgstr ""
+
+#: wp-translations-dist/src/components/ContactDetail/index.js:15
+msgid "No contact selected"
+msgstr ""
+
+#: wp-translations-dist/src/components/ContactDetail/Note/index.js:49
+msgid "Add a note"
+msgstr ""
+
+#: wp-translations-dist/src/components/ContactDetail/SelectedContact.js:57
+msgid "Contact deleted successfully"
+msgstr ""
+
+#: wp-translations-dist/src/components/ContactDetail/SelectedContact.js:94
+#: wp-translations-dist/src/pages/History/Message/components/MessageDetail/index.js:77
+msgid "Full name"
+msgstr ""
+
+#: wp-translations-dist/src/components/ContactDetail/SelectedContact.js:99
+#: wp-translations-dist/src/pages/History/Calls/components/CallDetails/index.js:99
+#: wp-translations-dist/src/pages/History/Message/components/MessageDetail/index.js:82
+#: wp-translations-dist/src/pages/Home/Welcome/Calls.js:43
+#: wp-translations-dist/src/pages/Inbox/Conversation/ConversationPaneHeader.js:71
+msgid "Call"
+msgstr ""
+
+#: wp-translations-dist/src/components/ContactDetail/SelectedContact.js:102
+#: wp-translations-dist/src/pages/History/Calls/components/CallDetails/index.js:102
+#: wp-translations-dist/src/pages/History/Message/components/MessageDetail/index.js:85
+#: wp-translations-dist/src/pages/History/Message/components/MessageDetail/index.js:114
+#: wp-translations-dist/src/pages/History/Message/table.js:110
+#: wp-translations-dist/src/pages/Home/Welcome/Calls.js:43
+msgid "Message"
+msgstr ""
+
+#: wp-translations-dist/src/components/ContactDetail/SelectedContact.js:102
+msgid "More"
+msgstr ""
+
+#: wp-translations-dist/src/components/ContactDetail/SelectedContact.js:107
+msgid "About"
+msgstr ""
+
+#: wp-translations-dist/src/components/ContactDetail/SelectedContact.js:107
+msgid "Notes"
+msgstr ""
+
+#: wp-translations-dist/src/components/ContactDetail/SelectedContact.js:109
+msgid "Are you sure you want to delete this contact?"
+msgstr ""
+
+#: wp-translations-dist/src/components/ContactDetail/SelectedContact.js:109
+msgid "This action will delete all selected contacts"
+msgstr ""
+
+#: wp-translations-dist/src/components/PhonePicker/index.js:56
+#: wp-translations-dist/src/components/PhonePicker/index.js:115
+msgid "Sender ID"
+msgstr ""
+
+#: wp-translations-dist/src/components/PhonePicker/index.js:59
+#: wp-translations-dist/src/components/PhonePicker/index.js:118
+msgid "Shortcode"
+msgstr ""
+
+#: wp-translations-dist/src/components/PhonePicker/index.js:87
+#: wp-translations-dist/src/components/PhonePicker/index.js:99
+#, js-format
+msgid "%s active number(s)"
+msgstr ""
+
+#: wp-translations-dist/src/components/PhonePicker/index.js:124
+msgid "My Numbers"
+msgstr ""
+
+#: wp-translations-dist/src/components/PhoneWidget/Dialer/ContactSearch.js:62
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/FlowFallback/CallForwarding.js:32
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PersonalDetails/index.js:42
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PointOfContactDetails/index.js:41
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/PointOfContact/index.js:42
+msgid "Phone number is not valid"
+msgstr ""
+
+#: wp-translations-dist/src/components/PhoneWidget/Dialer/ContactSearch.js:81
+msgid "Enter a name or phone number...."
+msgstr ""
+
+#: wp-translations-dist/src/components/PhoneWidget/Dialer/ContactSearch.js:83
+msgid "Press enter to call"
+msgstr ""
+
+#: wp-translations-dist/src/components/PhoneWidget/Dialer/History/index.js:47
+#: wp-translations-dist/src/pages/History/Calls/index.js:8
+msgid "Call History"
+msgstr ""
+
+#: wp-translations-dist/src/components/PhoneWidget/Dialer/History/index.js:47
+#: wp-translations-dist/src/pages/Home/Welcome/Calls.js:81
+#: wp-translations-dist/src/pages/Home/Welcome/Phones.js:108
+msgid "View All"
+msgstr ""
+
+#: wp-translations-dist/src/components/ReactionTooltip/index.js:9
+msgid "Comment"
+msgstr ""
+
+#: wp-translations-dist/src/components/ReactionTooltip/index.js:9
+msgid "Transcription"
+msgstr ""
+
+#: wp-translations-dist/src/components/ReactionTooltip/ReactWithEmoji.js:22
+msgid "Add reaction"
+msgstr ""
+
+#: wp-translations-dist/src/components/SavableContact/index.js:43
+msgid "Save contact"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/components/NextBillingTable.js:8
+#: wp-translations-dist/src/pages/ChangePlan/components/ConfirmSubscriptionLineItems.js:52
+msgid "Item"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/components/NextBillingTable.js:13
+#: wp-translations-dist/src/pages/ChangePlan/components/ConfirmSubscriptionLineItems.js:56
+msgid "Quantity"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/components/NextBillingTable.js:18
+#: wp-translations-dist/src/pages/ChangePlan/components/ConfirmSubscriptionLineItems.js:60
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/CurrentPlan.js:71
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/CurrentPlan.js:87
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/Invoice.js:30
+msgid "Amount"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/components/NextBillingTable.js:22
+msgid "Seat(s)"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/components/NextBillingTable.js:22
+msgid "Next Billing amount"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/components/PaymentDueTable.js:12
+#: wp-translations-dist/src/context/BuyPhone/views/ConfirmPurchase.js:56
+#: wp-translations-dist/src/context/BuyPhone/views/ConfirmPurchaseWithForceUpgrade.js:72
+msgid "Due now"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/index.js:145
+msgid "Select Phone Number"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/index.js:151
+#: wp-translations-dist/src/context/BuyPhone/index.js:157
+msgid "Confirm Purchase"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/index.js:163
+msgid "Confirm Number"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/index.js:169
+msgid "Confirm Purchase with payment method"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/index.js:221
+msgid "Phone subscription successful"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/index.js:228
+msgid "Failed to subscribe phone number"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/index.js:267
+msgid "Plan and number purchase successful"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/index.js:276
+msgid "Failed to upgrade phone number"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/index.js:305
+msgid "Phone successfully acquired"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/index.js:324
+msgid "Phone purchase successful"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/index.js:332
+msgid "Failed to buy phone number"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/views/ConfirmNumber.js:70
+msgid "You need to"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/views/ConfirmNumber.js:70
+#: wp-translations-dist/src/pages/ChangePlan/components/PricingCard.js:27
+#: wp-translations-dist/src/pages/ChangePlan/components/PricingCard.js:70
+#: wp-translations-dist/src/pages/History/Calls/components/PlayButton.js:40
+msgid "Upgrade"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/views/ConfirmNumber.js:70
+msgid "to get an extra free number."
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/views/ConfirmNumber.js:71
+#, js-format
+msgid "Your plan comes with %s free phone number %s. This will be %s/%s used."
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/views/ConfirmNumber.js:73
+#: wp-translations-dist/src/context/BuyPhone/views/ConfirmPurchase.js:60
+#: wp-translations-dist/src/context/BuyPhone/views/ConfirmPurchaseWithForceUpgrade.js:76
+#: wp-translations-dist/src/context/BuyPhone/views/ConfirmPurchaseWithPaymentMethod.js:95
+#: wp-translations-dist/src/pages/ChangePlan/components/PricingCard.js:73
+#: wp-translations-dist/src/pages/components/OnBoardingModal/GoalAction/CustomizeWidget/index.js:56
+#: wp-translations-dist/src/pages/components/OnBoardingModal/SetGoal/index.js:77
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/FlowFallback/index.js:18
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/index.js:60
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Welcome/index.js:93
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/InternetChannel/index.js:97
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/PhoneNumberChannel/index.js:16
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/index.js:26
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/index.js:19
+msgid "Back"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/views/ConfirmNumber.js:75
+msgid "Proceed"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/views/ConfirmPurchase.js:60
+#: wp-translations-dist/src/context/BuyPhone/views/ConfirmPurchaseWithForceUpgrade.js:76
+#: wp-translations-dist/src/pages/ChangePlan/components/ConfirmSubscriptionLineItems.js:48
+msgid "Next billing cycle"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/views/ConfirmPurchase.js:61
+#: wp-translations-dist/src/pages/ChangePlan/components/PricingCard.js:78
+msgid "Confirm"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/views/ConfirmPurchase.js:62
+#: wp-translations-dist/src/context/BuyPhone/views/ConfirmPurchaseWithForceUpgrade.js:82
+#, js-format
+msgid "Pay Amount: $%s"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/views/ConfirmPurchaseWithPaymentMethod.js:73
+msgid "Amount due"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/views/ConfirmPurchaseWithPaymentMethod.js:82
+msgid "Total"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/views/ConfirmPurchaseWithPaymentMethod.js:93
+msgid "Select payment method"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/views/ConfirmPurchaseWithPaymentMethod.js:93
+msgid "Ensure enough funds"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/views/ConfirmPurchaseWithPaymentMethod.js:98
+#: wp-translations-dist/src/pages/components/OnBoardingModal/SetGoal/index.js:70
+#: wp-translations-dist/src/pages/Home/QuickLinks/index.js:79
+#: wp-translations-dist/src/pages/Settings/Channels/PhoneNumber/index.js:63
+msgid "Buy phone number"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/views/ListPhoneNumbers.js:25
+msgid "Enter area code"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/views/ListPhoneNumbers.js:34
+#: wp-translations-dist/src/context/BuyPhone/views/ListPhoneNumbers.js:214
+msgid "Toll Free"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/views/ListPhoneNumbers.js:35
+#: wp-translations-dist/src/context/BuyPhone/views/ListPhoneNumbers.js:210
+msgid "Local"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/views/ListPhoneNumbers.js:36
+msgid "Mobile"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/views/ListPhoneNumbers.js:37
+#: wp-translations-dist/src/pages/Inbox/Conversation/ConversationPaneHeader.js:71
+msgid "Web"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/views/ListPhoneNumbers.js:68
+#: wp-translations-dist/src/pages/Home/Welcome/Phones.js:73
+msgid "Voice"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/views/ListPhoneNumbers.js:68
+#: wp-translations-dist/src/pages/Home/Welcome/Phones.js:40
+#: wp-translations-dist/src/pages/Home/Welcome/Phones.js:50
+msgid "Sms"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/views/ListPhoneNumbers.js:201
+msgid "Refresh"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/views/ListPhoneNumbers.js:217
+msgid "Toll Fee: No fee for regulatory SMS registration."
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/views/ListPhoneNumbers.js:217
+msgid "Local Regular: +$19 fee for regulatory SMS registration"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/views/ListPhoneNumbers.js:218
+msgid "No results found"
+msgstr ""
+
+#: wp-translations-dist/src/context/BuyPhone/views/ListPhoneNumbers.js:218
+msgid "Contact support for assistance with purchasing a phone in"
+msgstr ""
+
+#: wp-translations-dist/src/hooks/useBuyCreditForm/index.js:25
+msgid "Buy Credits"
+msgstr ""
+
+#: wp-translations-dist/src/hooks/useBuyCreditForm/index.js:26
+msgid "Credits for your calls and sms"
+msgstr ""
+
+#: wp-translations-dist/src/hooks/useBuyCreditForm/views/BuyCreditForm.js:43
+#, js-format
+msgid "Minimum amount is $%s"
+msgstr ""
+
+#: wp-translations-dist/src/hooks/useBuyCreditForm/views/BuyCreditForm.js:59
+msgid "Your credits have been purchased successfully"
+msgstr ""
+
+#: wp-translations-dist/src/hooks/useConversationDirectionTranslation/index.js:8
+msgid "Inbound"
+msgstr ""
+
+#: wp-translations-dist/src/hooks/useConversationDirectionTranslation/index.js:12
+msgid "Outbound"
+msgstr ""
+
+#: wp-translations-dist/src/OutRdFloatingBar/index.js:27
+msgid "Phone is offline"
+msgstr ""
+
+#: wp-translations-dist/src/pages/ChangePlan/components/ConfirmSubscriptionLineItems.js:13
+#: wp-translations-dist/src/pages/ChangePlan/components/ConfirmSubscriptionLineItems.js:38
+msgid "Billable seat(s)"
+msgstr ""
+
+#: wp-translations-dist/src/pages/ChangePlan/components/ConfirmSubscriptionLineItems.js:48
+msgid "This amount might be prorated based on the billing cycle"
+msgstr ""
+
+#: wp-translations-dist/src/pages/ChangePlan/components/ConfirmSubscriptionLineItems.js:65
+msgid "Total Amount"
+msgstr ""
+
+#: wp-translations-dist/src/pages/ChangePlan/components/PricingCard.js:25
+#: wp-translations-dist/src/pages/ChangePlan/components/PricingCard.js:68
+msgid "Resubscribe"
+msgstr ""
+
+#: wp-translations-dist/src/pages/ChangePlan/components/PricingCard.js:28
+#: wp-translations-dist/src/pages/ChangePlan/components/PricingCard.js:71
+msgid "Downgrade"
+msgstr ""
+
+#: wp-translations-dist/src/pages/ChangePlan/components/PricingCard.js:34
+msgid "You have non-released phone numbers. Please release them before downgrading to the free plan."
+msgstr ""
+
+#: wp-translations-dist/src/pages/ChangePlan/components/PricingCard.js:68
+#: wp-translations-dist/src/pages/ChangePlan/index.js:194
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/index.js:67
+msgid "Current Plan"
+msgstr ""
+
+#: wp-translations-dist/src/pages/ChangePlan/components/PricingCard.js:71
+msgid "Expires on"
+msgstr ""
+
+#: wp-translations-dist/src/pages/ChangePlan/index.js:105
+msgid "We could not verify this payment. Try again later"
+msgstr ""
+
+#: wp-translations-dist/src/pages/ChangePlan/index.js:120
+msgid "Completing your purchase, please wait..."
+msgstr ""
+
+#: wp-translations-dist/src/pages/ChangePlan/index.js:129
+#: wp-translations-dist/src/pages/ChangePlan/index.js:162
+msgid "Your plan has been changed successfully"
+msgstr ""
+
+#: wp-translations-dist/src/pages/ChangePlan/index.js:165
+msgid "Failed to change plan"
+msgstr ""
+
+#: wp-translations-dist/src/pages/ChangePlan/index.js:174
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/index.js:61
+msgid "Billing & Payments"
+msgstr ""
+
+#: wp-translations-dist/src/pages/ChangePlan/index.js:174
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/CurrentPlan.js:63
+msgid "Change Plan"
+msgstr ""
+
+#: wp-translations-dist/src/pages/ChangePlan/index.js:198
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/index.js:67
+msgid "Fees and metered feature usage"
+msgstr ""
+
+#: wp-translations-dist/src/pages/ChangePlan/index.js:213
+msgid "Billed Monthly "
+msgstr ""
+
+#: wp-translations-dist/src/pages/ChangePlan/index.js:218
+msgid "Billed Yearly"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/GoalAction/BuyPhoneNumber/index.js:47
+msgid "Do this later"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/GoalAction/BuyPhoneNumber/index.js:92
+msgid "Awesome, your new number is ready to use!"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/GoalAction/CustomizeWidget/index.js:53
+msgid "Customize your call widget"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/GoalAction/CustomizeWidget/index.js:56
+msgid "Customize the look and feel of your call widget"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/GoalAction/CustomizeWidget/index.js:56
+msgid "Done"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/GoalAction/CustomizeWidget/Settings/index.js:11
+msgid "Layout"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/GoalAction/CustomizeWidget/Settings/index.js:11
+#: wp-translations-dist/src/pages/components/OnBoardingModal/GoalAction/CustomizeWidget/Settings/Translations/index.js:10
+msgid "Translations"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/GoalAction/CustomizeWidget/Settings/Layout/index.js:32
+msgid "Layout & Style"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/GoalAction/CustomizeWidget/Settings/Layout/index.js:32
+#: wp-translations-dist/src/pages/Settings/Widget/index.js:12
+msgid "Preview"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/GoalAction/CustomizeWidget/Settings/Layout/index.js:32
+msgid "Position"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/GoalAction/CustomizeWidget/Settings/Layout/index.js:32
+msgid "Bottom Padding"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/GoalAction/CustomizeWidget/Settings/Layout/index.js:32
+msgid "Enter padding"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/GoalAction/CustomizeWidget/Settings/Layout/index.js:36
+msgid "Widget Color"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/GoalAction/CustomizeWidget/Settings/Layout/index.js:38
+msgid "Introduction message"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/GoalAction/CustomizeWidget/Settings/Layout/index.js:38
+msgid "Enter a welcome message"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/GoalAction/CustomizeWidget/Settings/Layout/index.js:38
+msgid "This message will be displayed to users when they interact with the widget."
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/GoalAction/CustomizeWidget/Settings/Layout/index.js:38
+msgid "Display \"Powered by\" badge"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/GoalAction/CustomizeWidget/Settings/Translations/index.js:12
+msgid "Update the text displayed in the widget"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/GoalAction/CustomizeWidget/Settings/Translations/index.js:12
+msgid "Launcher button text"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/GoalAction/CustomizeWidget/Settings/Translations/index.js:12
+msgid "Launcher button placeholder"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/GoalAction/CustomizeWidget/Settings/Translations/index.js:16
+msgid "Call button text"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/GoalAction/CustomizeWidget/Settings/Translations/index.js:16
+msgid "Call button placeholder"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/GoalAction/CustomizeWidget/Settings/Translations/index.js:20
+msgid "Hangup button text"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/GoalAction/CustomizeWidget/Settings/Translations/index.js:20
+msgid "Hangup button placeholder"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/GoalAction/CustomizeWidget/Settings/Translations/index.js:24
+msgid "Save button text"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/GoalAction/CustomizeWidget/Settings/Translations/index.js:24
+msgid "Save button placeholder"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/SetGoal/index.js:70
+msgid "Select your goal"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/SetGoal/index.js:70
+msgid "What do you want to achieve with this setup."
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/SetGoal/index.js:70
+msgid "Purchase a regular or toll-free business phone number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/SetGoal/index.js:71
+msgid "Calls and messages"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/SetGoal/index.js:72
+msgid "US, Canada, UK and others"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/SetGoal/index.js:75
+msgid "Accept free calls on your website"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/SetGoal/index.js:75
+msgid "Embed a widget on your website which will allow your customers to call you for free"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/SetGoal/index.js:75
+msgid "Incoming calls only"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/SetGoal/index.js:75
+msgid "No extra cost"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/SetGoal/index.js:77
+#: wp-translations-dist/src/pages/components/OnBoardingModal/SetupWorkspace/index.js:82
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/BusinessHours/index.js:30
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/index.js:62
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Welcome/index.js:95
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/index.js:26
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/index.js:19
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/index.js:25
+msgid "Continue"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/SetupWorkspace/index.js:36
+msgid "Email is invalid"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/SetupWorkspace/index.js:37
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PersonalDetails/index.js:31
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PointOfContactDetails/index.js:45
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/PointOfContact/index.js:32
+#: wp-translations-dist/src/pages/Settings/EmailAlert/Schedule.js:17
+msgid "Email is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/SetupWorkspace/index.js:38
+msgid "Workspace name is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/SetupWorkspace/index.js:69
+msgid "Unable to update workspace"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/SetupWorkspace/index.js:78
+msgid "Setup your workspace"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/SetupWorkspace/index.js:78
+msgid "Help us get to know you better. Please provide some information about yourself and your company."
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/SetupWorkspace/index.js:78
+msgid "Enter company's email"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/SetupWorkspace/index.js:78
+msgid "Company Email"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/SetupWorkspace/index.js:80
+msgid "Enter business name"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/SetupWorkspace/index.js:80
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/BusinessDetails/index.js:92
+msgid "Business Name"
+msgstr ""
+
+#: wp-translations-dist/src/pages/components/OnBoardingModal/SetupWorkspace/index.js:82
+msgid "Call audios, such as the welcome message, will be created using the company name."
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Calls/CallToolbar.js:38
+#: wp-translations-dist/src/pages/History/Message/MessageToolbar.js:36
+msgid "All"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Calls/CallToolbar.js:47
+#: wp-translations-dist/src/pages/History/Message/MessageToolbar.js:45
+#: wp-translations-dist/src/pages/Inbox/Conversation/ContactFilter.js:83
+msgid "Newest"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Calls/CallToolbar.js:51
+#: wp-translations-dist/src/pages/History/Message/MessageToolbar.js:49
+#: wp-translations-dist/src/pages/Inbox/Conversation/ContactFilter.js:87
+msgid "Oldest"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Calls/CallToolbar.js:58
+#: wp-translations-dist/src/pages/History/Message/MessageToolbar.js:56
+msgid "Date Range"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Calls/CallToolbar.js:64
+msgid "Search contacts by name, phone number, email"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Calls/components/CallDetails/index.js:46
+#: wp-translations-dist/src/pages/History/Calls/components/CallDetails/index.js:68
+#: wp-translations-dist/src/pages/History/Calls/components/CallDetails/index.js:117
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/index.js:165
+msgid "Call Transcript"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Calls/components/CallDetails/index.js:94
+#: wp-translations-dist/src/pages/History/Calls/table.js:112
+#: wp-translations-dist/src/pages/History/Message/components/MessageDetail/index.js:77
+#: wp-translations-dist/src/pages/History/Message/table.js:92
+msgid "Customer"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Calls/components/CallDetails/index.js:106
+msgid "Call Status"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Calls/components/CallDetails/index.js:108
+#: wp-translations-dist/src/pages/History/Message/components/MessageDetail/index.js:89
+msgid "Date"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Calls/components/CallDetails/index.js:110
+msgid "Assigned To"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Calls/components/CallDetails/index.js:112
+msgid "Call Tags"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Calls/components/CallDetails/index.js:114
+#: wp-translations-dist/src/pages/History/Message/components/MessageDetail/index.js:103
+#: wp-translations-dist/src/pages/History/Message/table.js:175
+msgid "Workspace Number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Calls/components/CallDetails/index.js:117
+#: wp-translations-dist/src/pages/History/Calls/table.js:203
+msgid "Recording"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Calls/components/CallDetails/index.js:117
+msgid "Call Summary"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Calls/components/CallDetails/index.js:117
+msgid "View Transcript"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Calls/components/CallStatus/index.js:13
+msgid "This call was rejected because the destination number is not allowed"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Calls/components/Tags/index.js:60
+msgid "Add Tag"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Calls/components/Tags/List.js:101
+msgid "Are you sure you want to remove this tag?"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Calls/components/Tags/List.js:101
+msgid "This action will remove all tags associated with all conversations"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Calls/components/Tags/List.js:137
+msgid "Select or type to create new tag"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Calls/table.js:44
+msgid "Call details"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Calls/table.js:95
+msgid "Date created"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Calls/table.js:135
+#: wp-translations-dist/src/pages/History/Message/table.js:131
+#: wp-translations-dist/src/pages/Settings/Channels/components/PhoneRender.js:45
+msgid "Status"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Calls/table.js:161
+msgid "Assigned to"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Calls/table.js:182
+msgid "Duration"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Calls/table.js:221
+#: wp-translations-dist/src/pages/History/Calls/table.js:234
+msgid "Transcript"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Calls/table.js:239
+msgid "Workspace number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Calls/table.js:268
+#: wp-translations-dist/src/pages/Home/Welcome/Calls.js:81
+msgid "No call history found"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Calls/table.js:268
+msgid "No calls to display at the moment, but we're here to assist when you're ready to record your communication milestones."
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/index.js:20
+msgid "History"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/index.js:24
+msgid "Calls"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/index.js:30
+msgid "Messages"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Message/components/MessageDetail/index.js:91
+msgid "Message status"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Message/components/MessageDetail/index.js:93
+#: wp-translations-dist/src/pages/History/Message/table.js:153
+msgid "Direction"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Message/components/MessageStatus/index.js:11
+msgid "This message was not sent because the workspace had no credit balance"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Message/components/MessageStatus/index.js:12
+msgid "This message was not sent because the destination number is not allowed"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Message/constants.js:17
+msgid "Received"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Message/constants.js:18
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/index.js:176
+msgid "Sent"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Message/index.js:7
+msgid "Message history"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Message/table.js:52
+msgid "Message Details"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Message/table.js:78
+msgid "Date Created"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Message/table.js:213
+msgid "No messages to display"
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Message/table.js:213
+msgid "No messages to display at the moment, but when you're ready to communicate."
+msgstr ""
+
+#: wp-translations-dist/src/pages/History/Message/table.js:213
+msgid "This page is your archive of conversations."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/Analytics/Activity/index.js:33
+msgid "Incoming calls"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/Analytics/Activity/index.js:34
+msgid "Outgoing calls"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/Analytics/Activity/index.js:35
+msgid "Missed calls"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/Analytics/Activity/index.js:36
+msgid "Received SMS"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/Analytics/Activity/index.js:37
+msgid "Sent SMS"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/Analytics/Activity/index.js:86
+#: wp-translations-dist/src/pages/Settings/EmailAlert/index.js:44
+msgid "Activity Summary"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/Analytics/Activity/index.js:86
+msgid "Pie Chart"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/Analytics/Activity/index.js:88
+msgid "Line Graph"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/Analytics/CustomerInteraction/index.js:18
+msgid "New Contacts"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/Analytics/CustomerInteraction/index.js:19
+msgid "Contacts Engaged"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/Analytics/CustomerInteraction/index.js:46
+msgid "Customer Interaction Summary"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/Analytics/index.js:9
+msgid "Today"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/Analytics/index.js:9
+msgid "Last 7 Days"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/Analytics/index.js:9
+msgid "Last 30 Days"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/Analytics/index.js:9
+msgid "Custom"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/ProductSlider/index.js:41
+msgid "Customize your widget"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/ProductSlider/index.js:47
+msgid "Customize"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/ProductSlider/index.js:60
+msgid "Setup your phone"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/ProductSlider/index.js:60
+msgid "Get a phone number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/ProductSlider/index.js:62
+msgid "Configure welcome greetings, business hours, call recording, IVR and team access"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/ProductSlider/index.js:63
+msgid "Grab your phone number to make outgoing calls"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/ProductSlider/index.js:66
+msgid "Setup Phone"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/QuickLinks/index.js:60
+msgid "Share dedicated call link"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/QuickLinks/index.js:61
+msgid "Share this link with your contacts to let them call you for free. This offers an alternative method for them to reach you, in addition to the call widget."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/QuickLinks/index.js:65
+msgid "Customize website widget"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/QuickLinks/index.js:71
+msgid "Share call link"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/QuickLinks/index.js:85
+msgid "Buy credit"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/QuickLinks/index.js:133
+msgid "Activate SMS (Compliance)"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/QuickLinks/index.js:148
+msgid "Quick Links"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/QuickLinks/index.js:174
+#: wp-translations-dist/src/pages/Inbox/Conversation/ContactFilter.js:49
+#: wp-translations-dist/src/pages/Inbox/Conversation/ConversationPaneHeader.js:96
+msgid "Open"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/Welcome/Calls.js:43
+msgid "Save Contact"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/Welcome/Calls.js:81
+#, js-format
+msgid "Recent Call(s) (%s)"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/Welcome/Phones.js:48
+msgid "You need to complete SMS compliance to send sms"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/Welcome/Phones.js:81
+#: wp-translations-dist/src/pages/Settings/Channels/components/PhoneRender.js:93
+msgid "Configure"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/Welcome/Phones.js:87
+msgid "Rename"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/Welcome/Phones.js:108
+#, js-format
+msgid "Channels (%s)"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Home/Welcome/Phones.js:108
+msgid "No phone numbers purchased"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/contexts/NewConversation/Components/ConvoHeader.js:44
+msgid "Search contact or phone number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/contexts/NewConversation/Components/ConvoHeader.js:45
+msgid "To:"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/ContactFilter.js:53
+#: wp-translations-dist/src/pages/Inbox/Conversation/ConversationPaneHeader.js:97
+msgid "Closed"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/ContactFilter.js:57
+msgid "Open/Closed"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/ContactFilter.js:68
+msgid "Unread"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/ContactFilter.js:72
+msgid "Read/Unread"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/Contacts.js:80
+#: wp-translations-dist/src/pages/Inbox/Conversation/Contacts.js:88
+msgid "Search"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/Contacts.js:80
+#: wp-translations-dist/src/pages/Inbox/Conversation/ContactSearch/index.js:63
+msgid "Contacts"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/Contacts.js:82
+msgid "New Conversation"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/ContactSearch/index.js:66
+msgid "Search contacts..."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/ConversationPane/List.js:100
+msgid "Buy a phone to make a call"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/ConversationPane/List.js:100
+msgid "No phone(s) available"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/ConversationPane/List.js:100
+msgid "Buy a phone number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/MessageInput.js:66
+msgid "You don't have any phone numbers with sms capabilities"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/MessageInput.js:78
+msgid "US phone numbers need to be registered with the number carrier before sending outbound messages. Please follow this"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/MessageInput.js:80
+msgid "link"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/MessageInput.js:80
+msgid "to complete the registration"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/MessageInput.js:125
+msgid "is not valid phone number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/MessageInput.js:195
+msgid "Send from"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/MessageInput.js:197
+msgid "Send"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/Comments/index.js:34
+msgid "Comments"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/Comments/index.js:57
+msgid "Comments are private and only visible to members of your workspace."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/Comments/index.js:92
+#, js-format
+msgid "%s comment(s)"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/Content/Call.js:16
+#, js-format
+msgid "This call was transferred to %s"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/Content/Call.js:21
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/Content/Call.js:27
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/Content/Call.js:63
+msgid "a few seconds"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/Content/Call.js:22
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/Content/Call.js:64
+#, js-format
+msgid "%s left a voicemail that lasted %s"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/Content/Call.js:29
+#, js-format
+msgid "%s and %s were on the call for %s"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/Content/Call.js:30
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/Content/Call.js:66
+#, js-format
+msgid "You and %s were on the call for %s"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/Content/Call.js:33
+#, js-format
+msgid "New outgoing call to %s"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/Content/Call.js:37
+#, js-format
+msgid "%s missed your call"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/Content/Call.js:40
+#, js-format
+msgid "You missed a call from %s"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/Content/Call.js:45
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/Content/Call.js:48
+#, js-format
+msgid "You are on a call with %s"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/Content/Call.js:52
+#, js-format
+msgid "%s rejected your call"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/Content/Call.js:55
+#, js-format
+msgid "Unable to complete call with %s"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/Content/Call.js:58
+#, js-format
+msgid "New incoming call from %s"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/Content/Call.js:110
+msgid "Answer call"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/Content/Call.js:114
+msgid "Hangup call"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/Content/Call.js:117
+msgid "Tap to call back"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/index.js:55
+msgid "Internet Phone"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/index.js:174
+msgid "Delivered"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/index.js:180
+msgid "Read"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/index.js:181
+msgid "Resend"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/index.js:201
+msgid "This conversation was initiated outside your business hours"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/index.js:203
+msgid "Outside business hours"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/index.js:227
+#, js-format
+msgid "Failed to send: %s"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/index.js:241
+msgid "Are you sure you want to resend this message?"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Inbox/Conversation/SingleContactConversation/index.js:241
+msgid "This action will resend the message to the contact"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/AutoCharge.js:19
+msgid "Auto Charge"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/AutoCharge.js:32
+msgid "Off"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/AutoCharge.js:35
+msgid "This will enable your account to be auto-charged an"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/AutoCharge.js:35
+msgid "amount specified by you when your credits drop below $0."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/AutoCharge.js:40
+msgid "Enable Auto - Charge"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/components/UpdatePaymentMethod.js:72
+msgid "Update payment details"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/CreditBalance.js:15
+msgid "Available credit"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/CreditBalance.js:18
+msgid "Free Minutes"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/CreditBalance.js:22
+msgid "Unlimited"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/CreditBalance.js:23
+#, js-format
+msgid "%s minute(s)"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/CreditBalance.js:23
+msgid "Buy Credit"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/CurrentPlan.js:32
+msgid "You are not subscribed to any plans"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/CurrentPlan.js:35
+msgid "You will not be billed on this plan"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/CurrentPlan.js:37
+#, js-format
+msgid "You will not be billed until %s"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/CurrentPlan.js:67
+msgid "Billable Seats"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/CurrentPlan.js:74
+msgid "seat(s)"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/CurrentPlan.js:83
+#, js-format
+msgid "Billed at %s"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/index.js:72
+msgid "Credit Balance"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/index.js:72
+msgid "Monitor current credit balance for calling and messaging, ensuring you stay informed about your account status."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/index.js:76
+msgid "Call and Message Rate Checker"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/index.js:76
+msgid "Monitor the charges for your business phone number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/index.js:79
+msgid "Payment Methods"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/index.js:79
+msgid "Manage your payment methods."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/index.js:82
+msgid "Invoices"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/index.js:82
+msgid "View your payments and invoices."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/Invoice.js:11
+msgid "No invoices found"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/Invoice.js:11
+msgid "Invoices will show here when available."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/Invoice.js:15
+msgid "Invoice Date"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/Invoice.js:21
+msgid "Type"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/Invoice.js:39
+msgid "Download receipt"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/Invoice.js:39
+msgid "Download invoice"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/Invoice.js:45
+msgid "Show More"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/PaymentMethod.js:9
+msgid "You do not have any payment method linked to your current subscription"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/RateChecker.js:91
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PersonalDetails/index.js:101
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PointOfContactDetails/index.js:95
+msgid "Phone Number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/RateChecker.js:103
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/IVR/index.js:148
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/IVR/SelectDestination.js:36
+msgid "Destination"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/RateChecker.js:105
+msgid "Number Type"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/RateChecker.js:124
+msgid "Calls & Messages"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/RateChecker.js:130
+msgid "Outgoing"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/RateChecker.js:134
+msgid "SMS"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/RateChecker.js:137
+msgid "Free"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/RateChecker.js:137
+msgid "per minute"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/BillingAndPayment/RateChecker.js:137
+msgid "per 160 characters"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/components/PhoneRender.js:26
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/FlowFallback/CallForwarding.js:63
+msgid "Phone number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/components/PhoneRender.js:48
+msgid "Released"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/components/PhoneRender.js:48
+msgid "Active"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/components/PhoneRender.js:54
+msgid "Access List"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/components/PhoneRender.js:60
+msgid "No users assigned"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/components/PhoneRender.js:73
+msgid "Repurchase"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/components/PhoneRender.js:78
+msgid "Subscribe now"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/index.js:24
+msgid "Channels(Phone numbers)"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/index.js:24
+#: wp-translations-dist/src/pages/Settings/Channels/PhoneNumber/index.js:63
+msgid "Your numbers"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/index.js:24
+msgid "Manage all phone numbers in your workspace"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/PhoneNumber/index.js:63
+msgid "Numbers you have access to in your workspace"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/PhoneNumber/index.js:64
+msgid "Other numbers"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/PhoneNumber/index.js:64
+msgid "Numbers you don't have access to in your workspace"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/CallSettings/index.js:11
+msgid "Call recording & transcription"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/CallSettings/index.js:11
+msgid "Enable recording of your call conversations"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/CallSettings/index.js:11
+msgid "Record calls"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/CallSettings/index.js:15
+msgid "Transcribe calls"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/CallSettings/index.js:15
+msgid "Enable transcription of your call conversations"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/BusinessHours/index.js:22
+msgid "Enable business hours to edit this settings"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/BusinessHours/index.js:22
+msgid "Set up your business hours"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/BusinessHours/index.js:22
+msgid "Set your business hours to control when calls are delivered to your team"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/BusinessHours/index.js:22
+msgid "Timezone"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/BusinessHours/index.js:22
+msgid "Select your timezone"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/FlowFallback/CallForwarding.js:60
+msgid "When to forward calls"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/FlowFallback/CallForwarding.js:60
+msgid "To ensure that calls are forwarded to another number when you are unavailable or busy, you need to set the conditions under which calls should be forwarded."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/FlowFallback/CallForwarding.js:63
+msgid "Note: Forwarded calls are deducted from your credit balance."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/FlowFallback/CallForwarding.js:76
+msgid "Call forwarding"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/FlowFallback/CallForwarding.js:76
+msgid "This is a number where calls will be forwarded when you are unavailable or busy. You can set conditions for when calls should be forwarded."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/FlowFallback/components/SelectCondition.js:15
+msgid "When unanswered"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/FlowFallback/components/SelectCondition.js:20
+msgid "When unavailable"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/FlowFallback/components/SelectCondition.js:25
+msgid "Forward all calls"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/FlowFallback/components/SelectCondition.js:53
+#, js-format
+msgid "%s selected"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/FlowFallback/components/SelectCondition.js:67
+msgid "Already selected"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/FlowFallback/VoiceMail.js:26
+msgid "When to send to voicemail"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/FlowFallback/VoiceMail.js:26
+msgid "To ensure that calls are directed to voicemail when you are unavailable or busy, you need to set the conditions under which voicemail should be activated."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/FlowFallback/VoiceMail.js:29
+msgid "Update voicemail"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/FlowFallback/VoiceMail.js:42
+msgid "Configure voicemail"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/FlowFallback/VoiceMail.js:42
+msgid "This sound will be played when you are away or busy"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/CallRouting.js:43
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/index.js:54
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Stepper.js:52
+msgid "Call routing"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/CallRouting.js:43
+msgid "Customise the direction for your incoming calls"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/CallRouting.js:47
+msgid "Ring Strategy"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/CallRouting.js:47
+msgid "The ring strategy determines how calls are distributed to agents."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/CallRouting.js:56
+msgid "Timeout After"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/CallRouting.js:56
+msgid "How long to wait in seconds before terminating an incoming call if not answered"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/index.js:54
+msgid "Customize the direction for your incoming calls"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/index.js:58
+msgid "Phone menu (IVR)"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/IVR/index.js:65
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/IVR/index.js:83
+msgid "Select a destination"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/IVR/index.js:70
+msgid "Select a team or a team mate"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/IVR/index.js:77
+msgid "Enter a valid number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/IVR/index.js:85
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/IVR/index.js:86
+msgid "Add IVR options"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/IVR/index.js:148
+msgid "Reconfigure welcome greetings to introduce callers to your IVR Menu"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/IVR/index.js:148
+msgid "Configure welcome greetings"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/IVR/index.js:148
+msgid "Key"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/IVR/index.js:148
+msgid "Timeout"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/IVR/index.js:154
+msgid "Add another option"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/IVR/index.js:154
+msgid "Save Changes"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/IVR/SelectDestination.js:15
+msgid "Forward to phone number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/IVR/SelectDestination.js:20
+msgid "Ring all"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/IVR/SelectDestination.js:25
+msgid "Send to a team or teammate"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/IVR/SelectDestination.js:29
+msgid "Send to voicemail"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/IVR/SelectDestination.js:36
+msgid "Select where caller should be routed to"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/IVR/SingleChoice/index.js:49
+msgid "Change"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/ManageTeam/IVR/SingleChoice/index.js:56
+msgid "Select destination"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/MediaUploader/SelectLibrary.js:35
+msgid "Select an existing audio file"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/MediaUploader/SelectLibrary.js:35
+msgid "Select"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/MediaUploader/TextToSpeech.js:46
+msgid "Write how you want to greet your callers"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/MediaUploader/TextToSpeech.js:46
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/Sample.js:6
+msgid "Choose from text templates"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/MediaUploader/TextToSpeech.js:46
+msgid "Click to view"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/MediaUploader/TextToSpeech.js:48
+msgid "Select a translation voice"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/MediaUploader/TextToSpeech.js:48
+msgid "Select a voice"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Stepper.js:44
+msgid "Business hours"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Stepper.js:44
+msgid "Set your available moments"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Stepper.js:48
+msgid "Welcome message"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Stepper.js:48
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/InternetChannel/index.js:128
+msgid "Customize your welcome message"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Stepper.js:52
+msgid "Ringing strategies and phone menus"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Stepper.js:52
+msgid "Call Fallbacks"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Stepper.js:52
+msgid "Configuration when no one is online"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Welcome/index.js:50
+msgid "Enable welcome greeting to edit this settings"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Welcome/index.js:50
+msgid "Configure the audio callers hear when they call your Rippledesk number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Welcome/index.js:50
+msgid "Set up your incoming call welcome message"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Welcome/index.js:50
+msgid "Update welcome message"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Welcome/index.js:50
+msgid "Configure IVR greetings audio"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Welcome/index.js:51
+msgid "This sound will be played to welcome callers to your IVR menu"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Welcome/index.js:58
+msgid "Standard IVR Welcome"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Welcome/index.js:59
+#, js-format
+msgid "Hello and welcome to %s… We appreciate your call. For support, please press 1. For sales, please press 2."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Welcome/index.js:62
+msgid "Friendly IVR Greeting"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Welcome/index.js:63
+#, js-format
+msgid "Hi there! Thanks for calling %s... For support, press 1. For sales, press 2... And we'll connect you shortly."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Welcome/index.js:66
+msgid "Professional IVR Greeting"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Welcome/index.js:67
+#, js-format
+msgid "Thank you for calling %s... For assistance, please press 1 for support. or press 2 for sales."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Welcome/index.js:70
+msgid "Warm IVR Reception"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Welcome/index.js:71
+#, js-format
+msgid "Welcome to %s... We value your call. If you need support, press 1... For sales inquiries, press 2."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Welcome/index.js:76
+msgid "Standard welcome"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Welcome/index.js:77
+#, js-format
+msgid "Hello and welcome to %s... We appreciate your call, please hold, while we connect you to one of our available team members."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Welcome/index.js:80
+msgid "Friendly welcome"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Welcome/index.js:81
+#, js-format
+msgid "Hi there! Welcome to %s. Thank you for calling. Please hold while we connect you to a team member."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Welcome/index.js:84
+msgid "Professional greeting"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Welcome/index.js:85
+#, js-format
+msgid "Thank you for calling %s. We value your call. Please hold for the next available representative."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Welcome/index.js:88
+msgid "Appreciative welcome"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ChannelCallFlow/Welcome/index.js:89
+#, js-format
+msgid "Welcome to %s. Your call is important to us. Please hold, and we will connect you shortly."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ReleaseChannel/index.js:25
+msgid "Release Phone Number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ReleaseChannel/index.js:26
+msgid "Releasing your phone number will result the number made available for purchase by another business."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ReleaseChannel/index.js:27
+msgid "Release phone number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ReleaseChannel/index.js:30
+msgid "Release internet Channel"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ReleaseChannel/index.js:31
+msgid "Deleting this internet channel will remove all data related to it."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ReleaseChannel/index.js:32
+msgid "Delete internet channel"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ReleaseChannel/index.js:44
+msgid "Delete call link"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ReleaseChannel/index.js:55
+msgid "Call link has been successfully deleted"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ReleaseChannel/index.js:89
+msgid "Channel has been successfully tagged for release"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ReleaseChannel/index.js:94
+msgid "Failed to release channel"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ReleaseChannel/index.js:111
+msgid "Danger zone"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ReleaseChannel/index.js:114
+msgid "Releasing of your phone number will result in the deletion of all the progress associated with this phone number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ReleaseChannel/index.js:114
+msgid "By releasing phone number you understand that:"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ReleaseChannel/index.js:114
+msgid "You will no longer be able to send or receive calls or messages using this number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ReleaseChannel/index.js:114
+msgid "You lose access to the number and the number can be purchased by another business"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/ReleaseChannel/index.js:114
+msgid "Deleting this call link would result in all conversations for this channel deleted."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/Template/FlowOptions.js:33
+msgid "Call flow updated successfully"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/Template/FlowOptions.js:36
+msgid "Are you sure you want to take this action?"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/Template/FlowOptions.js:36
+#, js-format
+msgid "This action will reset your current configuration to use the %s template"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/Template/FlowOptions.js:36
+msgid "Selecting a template will override any custom configurations"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/Template/index.js:13
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/Template/index.js:16
+msgid "Choose a call flow template"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/Template/index.js:14
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/Template/index.js:16
+msgid "Quickly set up your call flow using a ready-made template"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/components/Template/index.js:16
+msgid "Choose a call template"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/InternetChannel/index.js:36
+#: wp-translations-dist/src/pages/Settings/Channels/WebPhone/index.js:66
+#: wp-translations-dist/src/pages/Settings/Channels/WebPhone/WebInternetUrlInput.js:12
+msgid "Channel name"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/InternetChannel/index.js:36
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/InternetChannel/InternetUrl.js:24
+msgid "This is what your team will see for this channel"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/InternetChannel/index.js:69
+msgid "This channel name is currently taken"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/InternetChannel/index.js:97
+msgid "Internet Channel"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/InternetChannel/index.js:97
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/PhoneNumberChannel/index.js:16
+msgid "Channel settings"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/InternetChannel/index.js:97
+msgid "Disable channel"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/InternetChannel/index.js:97
+msgid "Link/Channel will not be accessible"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/InternetChannel/index.js:109
+msgid "Enable channel to configure"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/InternetChannel/index.js:112
+msgid "Form settings"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/InternetChannel/index.js:112
+msgid "Manage settings for this Website calls channel"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/InternetChannel/index.js:112
+msgid "Show business name"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/InternetChannel/index.js:118
+msgid "Request caller phone number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/InternetChannel/index.js:124
+msgid "Theme"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/InternetChannel/index.js:128
+msgid "Your phone number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/InternetChannel/index.js:128
+msgid "Phone number label"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/InternetChannel/index.js:128
+msgid "Enter a label for phone number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/InternetChannel/index.js:128
+msgid "Your name"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/InternetChannel/index.js:128
+msgid "Name label"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/InternetChannel/index.js:128
+msgid "Enter a label for name"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/InternetChannel/index.js:128
+msgid "Background image"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/PhoneNumberChannel/index.js:16
+msgid "Channels"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/PhoneNumberChannel/PhoneName.js:25
+msgid "Phone name"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/PhoneNumberChannel/PhoneName.js:25
+msgid "Give your phone a name"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/SingleChannel/PhoneNumberChannel/PhoneName.js:32
+msgid "Manage settings for this number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/WebPhone/index.js:28
+msgid "Create Website calls channel"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/WebPhone/index.js:29
+msgid "Set up a dedicated channel for seamless internet-based phone calls."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/WebPhone/index.js:36
+msgid "Channel name is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/WebPhone/index.js:37
+msgid "Call link is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/WebPhone/index.js:49
+msgid "Channel added successfully"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/WebPhone/index.js:58
+msgid "Channel is already taken"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/WebPhone/index.js:63
+msgid "New web channel"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/WebPhone/index.js:63
+msgid "Your web channels"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/WebPhone/index.js:63
+msgid "Your web channels description"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/WebPhone/index.js:66
+msgid "Enter channel name"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/WebPhone/index.js:68
+msgid "Must be alphanumeric (A-Z, 0-9) with hyphen or underscore between words (Max: 50 characters)."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/WebPhone/index.js:70
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/index.js:26
+msgid "Cancel"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/WebPhone/index.js:70
+msgid "Create"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/WebPhone/index.js:74
+msgid "Internet channels"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Channels/WebPhone/index.js:74
+msgid "Manage your internet channels"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/GetStarted/index.js:16
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/GetStarted/index.js:20
+msgid "US 10DLC Compliance"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/GetStarted/index.js:16
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/GetStarted/index.js:20
+msgid "To send messages to US phone numbers, you need to register with US carriers. This process ensures compliance with 10DLC messaging standards."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/GetStarted/index.js:18
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/GetStarted/index.js:26
+msgid "Start Registration"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/DoYouHaveAddress/index.js:24
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/HowAreYouUsing/index.js:25
+msgid "Please select an option"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/DoYouHaveAddress/index.js:37
+msgid "Do you have a business or personal address in the US or Canada?"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/DoYouHaveAddress/index.js:44
+msgid "US carriers require a valid US or Canadian address for 10DLC messaging registration"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/DoYouHaveAddress/index.js:48
+msgid "Yes, I have a US or Canadian address"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/DoYouHaveAddress/index.js:52
+msgid "No, I don't have a US or Canadian address"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/Eligble/index.js:12
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/HowAreYouUsing/index.js:44
+msgid "Personal Use"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/Eligble/index.js:13
+msgid "For users who are based in the US or Canada"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/Eligble/index.js:15
+msgid "Allow one Rippledesk number to send SMS to any US phone number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/Eligble/index.js:16
+msgid "Limited to 3000 US messages per day"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/Eligble/index.js:17
+msgid "Requires a US address and non-VoIP number phone number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/Eligble/index.js:21
+msgid "Low volume messages"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/Eligble/index.js:22
+msgid "For registered businesses in the US, Canada and around the world"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/Eligble/index.js:24
+msgid "Allow multiple Rippledesk numbers to send SMS to any US phone number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/Eligble/index.js:25
+msgid "Limited to 6000 US messages per day"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/Eligble/index.js:26
+msgid "Requires an EIN or equivalent business ID number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/Eligble/index.js:37
+msgid "Great, you're eligible for"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/HowAreYouUsing/index.js:34
+msgid "How are you using Rippledesk?"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/HowAreYouUsing/index.js:36
+msgid "This will help us determine the best registration path for you."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/HowAreYouUsing/index.js:40
+msgid "Business"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/HowAreYouUsing/index.js:40
+msgid "For professional communication"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/HowAreYouUsing/index.js:44
+msgid "Individual communication needs"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/NotEligible/index.js:16
+msgid "Sorry, you're not eligible to register right now"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/Inquiry/NotEligible/index.js:25
+msgid "US carriers require that all VolP users have a valid tax ID number (such as an EIN), or a US or Canadian phone number and address, to send text messages to US phone numbers."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Address/index.js:36
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/BusinessDetails/index.js:36
+msgid "Street address is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Address/index.js:38
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/BusinessDetails/index.js:42
+msgid "City is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Address/index.js:39
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/BusinessDetails/index.js:41
+msgid "Region is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Address/index.js:40
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/BusinessDetails/index.js:46
+msgid "Postal code is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Address/index.js:83
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Wrapper/LeftSideDesktopWrapper.js:38
+msgid "Business Address"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Address/index.js:83
+msgid "Your Address"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Address/index.js:91
+msgid "Tell us the location of your business"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Address/index.js:92
+msgid "Tell us your address"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Address/index.js:94
+msgid "Street Address"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Address/index.js:94
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/BusinessDetails/index.js:105
+msgid "Type to start searching...."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Address/index.js:101
+msgid "Street Address 2"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Address/index.js:101
+msgid "The number and street of the address. Example. Suite 221"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Address/index.js:101
+msgid "Additional address information, if necessary."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Address/index.js:103
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/BusinessDetails/index.js:114
+msgid "State / Province"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Address/index.js:103
+msgid "Please enter your state or province."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Address/index.js:103
+msgid "Enter State / Province"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Address/index.js:105
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/BusinessDetails/index.js:124
+msgid "City"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Address/index.js:106
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/BusinessDetails/index.js:124
+msgid "The city of the business address. Example: San Francisco"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Address/index.js:107
+msgid "Your city"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Address/index.js:107
+msgid "Enter business city"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Address/index.js:107
+msgid "Enter city"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Address/index.js:107
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/BusinessDetails/index.js:124
+msgid "Post Code"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Address/index.js:107
+msgid "Enter Post Code"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/BusinessDetails/index.js:42
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/BusinessDetails/index.js:29
+msgid "Business name is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/BusinessDetails/index.js:43
+msgid "Business type is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/BusinessDetails/index.js:46
+msgid "Business registration identifier is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/BusinessDetails/index.js:49
+msgid "Business industry is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/BusinessDetails/index.js:52
+msgid "Business registration number is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/BusinessDetails/index.js:55
+msgid "Website URL is invalid"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/BusinessDetails/index.js:56
+msgid "Website URL is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/BusinessDetails/index.js:59
+msgid "Business regions of operation are required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/BusinessDetails/index.js:60
+msgid "Company type is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/BusinessDetails/index.js:110
+msgid "Business details"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/BusinessDetails/index.js:117
+msgid "Provide further details about your business?"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/BusinessDetails/index.js:117
+msgid "Legal business name"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/BusinessDetails/index.js:117
+msgid "Legal name of business as registered by the state"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/BusinessDetails/index.js:118
+msgid "Select business type"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/BusinessDetails/index.js:120
+msgid "Business type"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/BusinessDetails/index.js:121
+msgid "Select company type"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/BusinessDetails/index.js:123
+msgid "Company type"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/BusinessDetails/index.js:124
+msgid "Select ID type"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/BusinessDetails/index.js:129
+msgid "Business registration ID type"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/BusinessDetails/index.js:129
+msgid "Business registration number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/BusinessDetails/index.js:129
+msgid "Enter your business registration number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/BusinessDetails/index.js:130
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/BusinessDetails/index.js:135
+msgid "Select business industry"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/BusinessDetails/index.js:135
+msgid "Business industry"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/BusinessDetails/index.js:135
+msgid "Website URL"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/BusinessDetails/index.js:135
+msgid "Enter your website URL"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/BusinessDetails/index.js:137
+msgid "Select regions where business operates"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/BusinessDetails/index.js:144
+msgid "Regions of operation"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/FeesSummary/index.js:39
+msgid "Fees and Submission"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/FeesSummary/index.js:42
+msgid "Review the fees for registering your business"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/FeesSummary/index.js:43
+msgid "Review the fees for registering your account"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/FeesSummary/index.js:43
+msgid "It's important to note that these fees go directly to the carriers and not to Rippledesk. These fees are a necessary part of the compliance process for 10DLC messaging."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/FeesSummary/index.js:46
+msgid "Carrier Review Fee"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/FeesSummary/index.js:46
+#, js-format
+msgid "$%s  USD"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/FeesSummary/index.js:49
+msgid "Messaging Fee (Annual)"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/FeesSummary/index.js:49
+#, js-format
+msgid "$%s USD"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/FeesSummary/index.js:54
+msgid "By clicking Submit, you agree to allow Rippledesk to submit the carrier review fee and messaging fees to the respective carriers on your behalf. These fees are non-refundable and a necessary part of the 10DLC compliance process."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/FeesSummary/index.js:56
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/Submission/index.js:44
+msgid "Submit"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/index.js:34
+msgid "Description is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/index.js:37
+msgid "Message flow must be at least 40 characters"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/index.js:38
+msgid "Message flow must be at most 2048 characters"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/index.js:39
+msgid "Message flow is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/index.js:43
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/index.js:46
+msgid "Message sample is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/index.js:47
+msgid "At least two message samples are required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/index.js:48
+msgid "Message samples are required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/index.js:96
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Wrapper/LeftSideDesktopWrapper.js:22
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:158
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/Wrapper/LeftSideDesktopWrapper.js:23
+msgid "Messaging details"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/index.js:104
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:165
+msgid "Provide comprehensive details regarding the messaging strategy employed by your business."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/index.js:105
+msgid "Provide comprehensive details regarding the messaging strategy you employ"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/index.js:106
+msgid "How will your business use text messaging day to day?"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/index.js:107
+msgid "How are you planning to use text messaging day to day?"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/index.js:107
+msgid "Describe what you would use this campaign for"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/index.js:107
+msgid "Example: Send marketing messages about sales and offers. Mention any other use cases for text messaging."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/index.js:109
+msgid "How do your users consent to receive messages? (40-2048 characters)"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/index.js:109
+msgid "Example: End users opt-in by visiting www.examplewebsite.com and adding their phone number. They then check a box agreeing to receive text messages from Example Brand. Opt-in occurs after end users create an account; see screenshot of opt-in (www.example.com/screenshot-of-the-form-field). Additionally, end users can also opt-in by texting START to (111) 222-3333 to opt in."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/index.js:109
+msgid "This field should describe how end users opt-in to the campaign, therefore giving consent to the sender to receive their messages. If multiple opt-in methods can be used for the same campaign, they must all be listed"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/index.js:120
+msgid "What specific text messages will you typically send?"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/index.js:120
+msgid "Provide two or more examples of text messages you typically send to US phone numbers that match the scenarios you described above. If you include links, make sure to add them."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/index.js:128
+msgid "Add Sample Button"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/MessageSample.js:30
+msgid "Add supporting documents"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/MessageSample.js:31
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:127
+msgid "Upload supporting documents"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/MessageSample.js:42
+#, js-format
+msgid "Sample message #%s"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/MessageSample.js:42
+msgid "Example: Hi, we have a new sale on our website. Check it out at example.com."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/MessageSample.js:42
+msgid "Provide an example of a message that you will be sending with this campaign. This message sample will be used by carriers to help identify your traffic."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/MessageSample.js:49
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:240
+msgid "Document"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/MessageSample.js:50
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:242
+msgid "Replace documents"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/MessageSample.js:50
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:243
+msgid "Add documents"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/ToolTipContent/index.js:10
+msgid "How do end-users consent to receive messages?"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/ToolTipContent/index.js:10
+msgid "This field should describe how and when consumers opt-in to the campaign, therefore giving consent to the sender to receive their messages. The call-to-action must be explicitly clear and inform consumers of the nature of the program. If multiple opt-in methods can be used for the same, list them all."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/ToolTipContent/index.js:10
+msgid "Provide website where opt-in occurs."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/ToolTipContent/index.js:10
+msgid "List all opt-in methods."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/ToolTipContent/index.js:10
+msgid "Include an opt-in message if users can text."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/ToolTipContent/index.js:10
+msgid "If a website is provided, it must be accessible with privacy policy and terms."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/ToolTipContent/index.js:10
+msgid "If opt-in occurs behind a gated login or on paper, provide a hosted link of a screenshot or document of the opt-in."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/ToolTipContent/index.js:10
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/ToolTipContent/index.js:17
+msgid "Successful Example:"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/ToolTipContent/index.js:10
+msgid "Customers provide opt-in specifically when enrolling into our website, or in person by requesting SMS capabilities within the store. Opt-in during website is a self-service process and occurs at acme.com/signup. By submitting, you authorize ACME to send text messages with offers and other information. Message/data rates apply. Consent is not a condition of purchase. [Link to terms and conditions]."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/ToolTipContent/index.js:10
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/ToolTipContent/index.js:17
+msgid "Failure Example:"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/ToolTipContent/index.js:10
+msgid "Customers sign up"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/ToolTipContent/index.js:10
+msgid "(Where and how the customer provides opt-in is unclear, campaign will be rejected.)"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/ToolTipContent/index.js:10
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/ToolTipContent/index.js:17
+msgid "Learn more"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/ToolTipContent/index.js:17
+msgid "Sample messages"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/ToolTipContent/index.js:17
+msgid "Sample messages should reflect actual messages to be sent under campaign."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/ToolTipContent/index.js:17
+msgid "Do not use placeholder text for your sample messages"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/ToolTipContent/index.js:17
+msgid "Use brackets to indicate templated fields in sample message"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/ToolTipContent/index.js:17
+msgid "Consistency in sample message, use case, and campaign description"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/ToolTipContent/index.js:17
+msgid "Provide Opt-out when applicable"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/ToolTipContent/index.js:17
+msgid "ACME 2FA Notice: Here is your one time password: 1234Call [phone-number] to report if this request was not made by you."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/ToolTipContent/index.js:17
+msgid "You have an upcoming appointment"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/MessagingDetails/ToolTipContent/index.js:17
+msgid "(Opt-out is not provided, campaign will be rejected.)"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PersonalDetails/index.js:30
+#: wp-translations-dist/src/pages/Settings/EmailAlert/Schedule.js:16
+msgid "Email is not valid"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PersonalDetails/index.js:32
+msgid "Brand name is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PersonalDetails/index.js:33
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PointOfContactDetails/index.js:36
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/PointOfContact/index.js:35
+msgid "First name is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PersonalDetails/index.js:34
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PointOfContactDetails/index.js:37
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/PointOfContact/index.js:38
+msgid "Last name is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PersonalDetails/index.js:38
+msgid "Industry is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PersonalDetails/index.js:41
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PointOfContactDetails/index.js:40
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/PointOfContact/index.js:41
+msgid "Phone number is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PersonalDetails/index.js:88
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Wrapper/LeftSideDesktopWrapper.js:14
+msgid "Your details"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PersonalDetails/index.js:95
+msgid "Provide further details about you"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PersonalDetails/index.js:95
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/PointOfContact/index.js:83
+msgid "First Name"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PersonalDetails/index.js:95
+#: wp-translations-dist/src/pages/Settings/MyProfile/index.js:64
+msgid "Enter your first name"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PersonalDetails/index.js:97
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/PointOfContact/index.js:83
+msgid "Last Name"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PersonalDetails/index.js:97
+msgid "Enter last name"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PersonalDetails/index.js:99
+msgid "Brand name represents your business. It can be your first name and last name or your business name."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PersonalDetails/index.js:99
+msgid "Enter your brand name"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PersonalDetails/index.js:101
+msgid "Enter email address"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PersonalDetails/index.js:102
+msgid "Select vertical"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PersonalDetails/index.js:107
+msgid "Vertical represents the industry you are in. This helps us to understand your business better."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PointOfContactDetails/index.js:34
+msgid "Job title is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PointOfContactDetails/index.js:35
+msgid "Job position is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PointOfContactDetails/index.js:88
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/PointOfContact/index.js:76
+msgid "Point of contact"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PointOfContactDetails/index.js:95
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/PointOfContact/index.js:83
+msgid "Give us a point of contact for your business"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PointOfContactDetails/index.js:95
+msgid "The first name of the business' authorized representative"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PointOfContactDetails/index.js:95
+msgid "The last name of the business' authorized representative"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PointOfContactDetails/index.js:95
+msgid "The email address of the business' authorized representative"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PointOfContactDetails/index.js:95
+msgid "The exact job title of the business' authorized representative"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PointOfContactDetails/index.js:95
+msgid "Job Title"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PointOfContactDetails/index.js:96
+msgid "Select job position"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/PointOfContactDetails/index.js:98
+msgid "Job Position"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Wrapper/LeftSideDesktopWrapper.js:18
+msgid "Your address"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Wrapper/LeftSideDesktopWrapper.js:26
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Wrapper/LeftSideDesktopWrapper.js:49
+msgid "Summary of fees"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Wrapper/LeftSideDesktopWrapper.js:34
+msgid "Business Details"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Wrapper/LeftSideDesktopWrapper.js:42
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/Wrapper/LeftSideDesktopWrapper.js:19
+msgid "Point of Contact"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/10DLCUsPhoneComplaince/MessagingForms/Wrapper/LeftSideDesktopWrapper.js:46
+msgid "Messaging Details"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/index.js:47
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/index.js:110
+msgid "Draft"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/index.js:53
+msgid "Pending Payment"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/index.js:62
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/index.js:99
+msgid "In Review"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/index.js:68
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/index.js:105
+msgid "Approved"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/index.js:78
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/index.js:120
+msgid "Start Compliance"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/index.js:115
+msgid "Pending Review"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/index.js:128
+#, js-format
+msgid "Verification has been rejected. Reason: %s"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/index.js:130
+#, js-format
+msgid "Manage this number %s"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/index.js:137
+msgid "Verification has been approved"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/index.js:139
+msgid "Verification is under review"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/index.js:141
+msgid "We have received your request. Please complete payment to proceed. Contact support if you have not received an email"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/index.js:147
+msgid "Verification is currently ongoing. Please check back later"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/index.js:149
+msgid "Complete verification process"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/index.js:153
+msgid "Toll free"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/index.js:154
+msgid "Regular"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/index.js:190
+msgid "No phone numbers available"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/index.js:192
+msgid "US/Canada carrier registrations"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/index.js:192
+msgid "Manage your registrations"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/index.js:192
+msgid "Manage phone compliance"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/index.js:192
+msgid "Become compliant to US/Canada regulations to begin sending SMS"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/BusinessDetails/index.js:32
+msgid "Enter a valid business url"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/BusinessDetails/index.js:33
+msgid "Business website is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/BusinessDetails/index.js:47
+msgid "Country is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/BusinessDetails/index.js:85
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/Wrapper/LeftSideDesktopWrapper.js:15
+msgid "Business Details & Address"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/BusinessDetails/index.js:92
+msgid "Business Information"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/BusinessDetails/index.js:92
+msgid "The name of the business or organization using the Toll-Free phone number. Eg. John's Coffee Shop"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/BusinessDetails/index.js:94
+msgid "Business Website"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/BusinessDetails/index.js:94
+msgid "The website of the business or organization using the Toll-Free phone number Eg. https://example.com"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/BusinessDetails/index.js:103
+msgid "Tell us the location of your business."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/BusinessDetails/index.js:105
+msgid "Business Street Address"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/BusinessDetails/index.js:112
+msgid "Business Street Address 2"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/BusinessDetails/index.js:112
+msgid "The number and street of the address. Example. Suite 221 Additional address information, if necessary."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/BusinessDetails/index.js:114
+msgid "Two-letter abbreviation for the state or province of the address. Enter State / Province"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/BusinessDetails/index.js:124
+msgid "Enter the postal/ZIP code of the business address"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/index.js:22
+msgid "BackButton"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/index.js:25
+msgid "Quit"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:30
+msgid "Verbal Consent"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:34
+msgid "Web Form"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:38
+msgid "Paper Form"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:42
+msgid "Via Text Message"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:46
+msgid "Mobile QR Code"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:84
+#, js-format
+msgid "You've subscribed to %s - msgs powered by Rippledesk. Msgs are recurring. Reply STOP to unsubscribe, HELP for help"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:93
+msgid "Select at least one category"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:94
+msgid "Use cases is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:97
+msgid "Use case summary is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:100
+msgid "Production message sample is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:103
+msgid "Select at least one supporting document"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:104
+msgid "Provide supporting documents"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:108
+msgid "Opt in type is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:109
+msgid "Message volume is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:113
+msgid "Notify customers about promotions, discounts, and exclusive offers."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:126
+msgid "Select supporting documents"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:165
+msgid "Use case summary (Max 500 Characters)"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:165
+msgid "How do you plan to use messages day to day"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:177
+msgid "Promotions & Offers"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:181
+msgid "Appointment reminders"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:185
+msgid "Order & delivery updates"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:189
+msgid "Payment alerts"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:193
+msgid "Product news"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:197
+msgid "Feedback requests"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:201
+msgid "Customer support"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:205
+msgid "Cart abandonment reminders"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:208
+msgid "Sample message content (Max 1000 Characters)"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:208
+msgid "An example of the message content, i.e., \"This is Chris, I'm here with your order. Reply stop to opt-out\". "
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:218
+msgid "Describes how a user opts-in to received text messages"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:222
+msgid "Select opt-in type"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:226
+msgid "The monthly volume estimation of messages this number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:229
+msgid "Select monthly message volume"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:231
+msgid "Choose the use case that you believe best fits your customer's traffic pattern."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:233
+msgid "Choose the use case that you believe best fits your customer's traffic pattern. This should be the use case that best fits the types of messages being sent by this toll-free phone number."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:233
+msgid "Supporting Documents (Max 10)"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/index.js:233
+msgid "You must provide proof of consent to receive messaging collected from your customers. Kindly include images or screenshots of all documents you use to collect consent from your customers. Example, screenshot of contact forms etc."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/MessageDetails/Sample.js:6
+msgid "(Click to view)"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/PointOfContact/index.js:83
+msgid "Enter the first name of the contact for the business or organization using the Toll-Free phone number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/PointOfContact/index.js:83
+msgid "Enter the last name of the contact for the business or organization using the Toll-Free phone number."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/PointOfContact/index.js:83
+msgid "Enter the email address of the contact for the business or organization using the Toll-Free phone number."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/PointOfContact/index.js:83
+msgid "The phone number of the contact for the business or organization using the Toll-Free phone number."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/Submission/index.js:28
+msgid "Verification submitted successfully"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/Submission/index.js:33
+msgid "An error occurred during submission. Please try again, or contact support if the issue continues."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/Submission/index.js:39
+msgid "Ready to submit your information"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/Submission/index.js:42
+msgid " By clicking \"Submit,\" your information will be sent for compliance review. This process may take up to 7 days to complete. Please return here later to check the status of your submission."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Compliance/Section/TollFreeCompliance/Wrapper/LeftSideDesktopWrapper.js:27
+msgid "Submission"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/EmailAlert/index.js:44
+msgid "Email Alerts"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/EmailAlert/index.js:44
+msgid "Stay updated with regular email summaries of your account activities."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/EmailAlert/index.js:46
+msgid "Send email notifications:"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/EmailAlert/index.js:46
+msgid "Select how often these emails receive notifications"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/EmailAlert/index.js:49
+msgid "Never"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/EmailAlert/index.js:53
+msgid "Daily"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/EmailAlert/index.js:57
+msgid "Weekly"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/EmailAlert/index.js:63
+msgid "Send email notifications to"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/EmailAlert/index.js:63
+msgid "Enter email(s) you want notifications sent to"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/EmailAlert/Schedule.js:18
+msgid "At least one email is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/EmailAlert/Schedule.js:41
+msgid "Enter your email"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/EmailAlert/Schedule.js:42
+msgid "Save"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/EmailAlert/Schedule.js:42
+msgid "Add another email"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/index.js:31
+#: wp-translations-dist/src/pages/Settings/MyProfile/index.js:63
+msgid "My Profile"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/index.js:37
+msgid "Workspace"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/index.js:43
+msgid "Channels(Phone..)"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/index.js:49
+msgid "Website Widget"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/index.js:55
+msgid "Email Alert"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/index.js:61
+msgid "Billing"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/index.js:67
+msgid "Compliance"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/MyProfile/index.js:39
+msgid "Upload Profile Picture"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/MyProfile/index.js:40
+msgid "Upload a profile picture for your account"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/MyProfile/index.js:47
+msgid "Display name is required"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/MyProfile/index.js:63
+msgid "Account"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/MyProfile/index.js:63
+msgid "To change, edit and click update below."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/MyProfile/index.js:64
+msgid "Display name"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/MyProfile/index.js:64
+msgid "Enter your display name"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/MyProfile/index.js:64
+msgid "First name"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/MyProfile/index.js:64
+msgid "Last name"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/MyProfile/index.js:64
+msgid "Enter your last name"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/MyProfile/index.js:69
+#: wp-translations-dist/src/pages/Settings/WorkspaceDetails/index.js:155
+msgid "Update"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Widget/index.js:12
+msgid "Website widget"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Widget/index.js:12
+msgid "Show widget"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Widget/index.js:12
+msgid "Disable widget"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Widget/index.js:13
+msgid "Website widget is available to take calls."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/Widget/index.js:14
+msgid "Website widget is not available to take calls."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/WorkspaceDetails/index.js:66
+msgid "Upload Workspace Picture"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/WorkspaceDetails/index.js:67
+msgid "Upload a picture to represent your workspace"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/WorkspaceDetails/index.js:118
+msgid "Workspace Details"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/WorkspaceDetails/index.js:118
+msgid "To change, edit and click ‘update’ below."
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/WorkspaceDetails/index.js:118
+msgid "Business email"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/WorkspaceDetails/index.js:118
+msgid "Enter your business email"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/WorkspaceDetails/index.js:118
+msgid "Workspace name"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/WorkspaceDetails/index.js:118
+msgid "Enter your workspace name"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/WorkspaceDetails/index.js:118
+msgid "Business legal name"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/WorkspaceDetails/index.js:118
+msgid "Enter your business legal name"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/WorkspaceDetails/index.js:118
+msgid "Owner phone number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/WorkspaceDetails/index.js:118
+msgid "Enter your owner phone number"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/WorkspaceDetails/index.js:118
+msgid "Industry"
+msgstr ""
+
+#: wp-translations-dist/src/pages/Settings/WorkspaceDetails/index.js:128
+msgid "Team size"
+msgstr ""
