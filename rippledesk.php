@@ -12,7 +12,6 @@
  * Requires at least: 5.0
  * Tested up to: 6.4
  * Requires PHP: 7.4
- * Network: false
  * Domain Path: /languages
  *
  * @package Rippledesk
@@ -29,9 +28,11 @@ define('RIPPLEDESK_PLUGIN_PATH', plugin_dir_path(__FILE__));
 define('RIPPLEDESK_PLUGIN_FILE', __FILE__);
 define("RIPPLEDESK_PLUGIN_SLUG", 'rippledesk');
 
+$env_file = "env.production";
+
 // Load environment variables
-if (file_exists(RIPPLEDESK_PLUGIN_PATH . '.env')) {
-    $env_file = file_get_contents(RIPPLEDESK_PLUGIN_PATH . '.env');
+if (file_exists(RIPPLEDESK_PLUGIN_PATH . $env_file)) {
+    $env_file = file_get_contents(RIPPLEDESK_PLUGIN_PATH . $env_file);
     $lines = explode("\n", $env_file);
     foreach ($lines as $line) {
         $line = trim($line);
@@ -74,11 +75,6 @@ class Rippledesk
         $value = getenv($key);
         if ($value !== false) {
             return $value;
-        }
-
-        // Check $_ENV superglobal
-        if (isset($_ENV[$key])) {
-            return $_ENV[$key];
         }
 
         return $default;
@@ -179,7 +175,6 @@ class Rippledesk
         <script type="text/javascript">
             function rippledeskAdminCall(event) {
                 event.preventDefault();
-                console.log('Rippledesk: Attempting to open dialer...');
                 const callButtonElement = document.getElementById("rippledesk-call-button")
                 if (callButtonElement) {
                     callButtonElement.click()
@@ -220,7 +215,7 @@ class Rippledesk
     public function plugin_activation()
     {
         // Log activation
-        error_log('Rippledesk: Activation started');
+        logger('Rippledesk: Activation started');
 
         // Create user and workspace in Rippledesk on activation
         $this->login_auth();
@@ -229,7 +224,7 @@ class Rippledesk
         update_option('rippledesk_activated', true);
         update_option('rippledesk_activation_date', current_time('mysql'));
 
-        error_log('Rippledesk: Activation completed');
+        logger('Rippledesk: Activation completed');
     }
 
     /**
@@ -242,7 +237,7 @@ class Rippledesk
         delete_option('rippledesk_activation_date');
         delete_option('rippledesk_integration_last_sync');
 
-        error_log('Rippledesk Integration Plugin: Deactivated');
+        logger('Rippledesk Integration Plugin: Deactivated');
     }
 
     /**
@@ -320,7 +315,7 @@ class Rippledesk
      */
     public function admin_init()
     {
-        error_log("admin_init");
+        logger("admin_init");
     }
 
     /**
@@ -341,7 +336,8 @@ class Rippledesk
             'rippledesk-admin',
             plugins_url('build/index.js', __FILE__),
             $asset['dependencies'],
-            $asset['version']
+            $asset['version'],
+            true
         );
 
         $rd_response_body = get_option('rd_response_body');
@@ -352,7 +348,7 @@ class Rippledesk
         wp_localize_script('rippledesk-admin', 'RD_LOAD_LOCATION', $is_inside_rd_app ? "RD_APP" : "OUTSIDE_RD_APP");
 
 
-        error_log("Enqueuing Rippledesk build script with dependencies: " . implode(', ', $asset['dependencies']));
+        logger("Enqueuing Rippledesk build script with dependencies: " . implode(', ', $asset['dependencies']));
 
         // importance to load @wordpress/components css
         wp_enqueue_style(
@@ -434,7 +430,7 @@ class Rippledesk
         $query_string = http_build_query($payload);
         $full_url = "$api_url/auth/permissions/accepted/wordpress/callback" . '?' . $query_string;
 
-        error_log("Making GET request to: " . $full_url);
+        logger("Making GET request to: " . $full_url);
 
         $response = wp_remote_get($full_url, array(
             'timeout' => 30,
@@ -445,7 +441,7 @@ class Rippledesk
         ));
 
         if (is_wp_error($response)) {
-            error_log("Rippledesk API Error: " . $response->get_error_message());
+            logger("Rippledesk API Error: " . $response->get_error_message());
             update_option('rippledesk_integration_last_error', $response->get_error_message());
             return false;
         }
@@ -454,13 +450,13 @@ class Rippledesk
         $response_body = wp_remote_retrieve_body($response);
 
 
-        error_log("Rippledesk API Response Code: " . $response_code);
-        error_log("Rippledesk API Response Body: " . $response_body);
+        logger("Rippledesk API Response Code: " . $response_code);
+        logger("Rippledesk API Response Body: " . $response_body);
 
 
         if (is_wp_error($response)) {
             $error_message = $response->get_error_message();
-            error_log("Rippledesk API Error: " . $error_message);
+            logger("Rippledesk API Error: " . $error_message);
             update_option('rippledesk_integration_last_error', $error_message);
 
             // Show admin notice to user for WP_Error
@@ -474,27 +470,11 @@ class Rippledesk
             return false;
         }
 
-        error_log("Rippledesk installation successful " . $response_body);
+        logger("Rippledesk installation successful " . $response_body);
 
         update_option("rd_response_body", $response_body);
 
         return true;
-    }
-
-    /**
-     * Get plugin status for debugging
-     */
-    public function get_plugin_status()
-    {
-        return array(
-            'activated' => get_option('rippledesk_activated', false),
-            'activation_date' => get_option('rippledesk_activation_date'),
-            'last_sync' => get_option('rippledesk_integration_last_sync'),
-            'last_error' => get_option('rippledesk_integration_last_error'),
-            'plugin_version' => RIPPLEDESK_PLUGIN_VERSION,
-            'wordpress_version' => get_bloginfo('version'),
-            'site_url' => get_site_url()
-        );
     }
 
 
@@ -506,7 +486,7 @@ class Rippledesk
         $widget_token = $parsed_data["widgetToken"] ?? null;
 
         if (!isset($widget_token)) {
-            error_log("Rippledesk frontend widget script: Widget token not found.");
+            logger("Rippledesk frontend widget script: Widget token not found.");
             return;
         }
 
@@ -523,16 +503,11 @@ class Rippledesk
 // Initialize the plugin
 new Rippledesk();
 
-// Add debug function for troubleshooting
-if (defined('WP_DEBUG') && WP_DEBUG) {
-    function rippledesk_debug_info()
-    {
-        if (current_user_can('manage_options')) {
-            $plugin = new Rippledesk();
-            echo '<pre>' . print_r($plugin->get_plugin_status(), true) . '</pre>';
-        }
-    }
 
-    // Add debug shortcode
-    add_shortcode('rippledesk_debug', 'rippledesk_debug_info');
+
+function logger($message)
+{
+    if (defined('WP_DEBUG') && WP_DEBUG === true) {
+        // error_log($message);
+    }
 }
