@@ -5,7 +5,6 @@
  * Description: Business phone and messaging system for teams. Rippledesk allows you to make and receive calls from your WordPress site.
  * Version: 0.0.1
  * Author: Rippledesk
- * Author URI: https://rippledesk.com
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: rippledesk
